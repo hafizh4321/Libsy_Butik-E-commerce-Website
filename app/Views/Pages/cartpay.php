@@ -21,7 +21,7 @@
                     <ul class="nav nav-pills nav mb-3">
                         <li class="nav-item">
                             <a href="/Pages/where" data-toggle="pill" class="nav-link active">
-                                <i class="fas fa-backward"></i> Cart
+                                <i class="fas fa-backward"></i> 
                             </a>
                         </li>
 

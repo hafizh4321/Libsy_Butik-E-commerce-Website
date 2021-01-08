@@ -21,7 +21,7 @@
                     <th scope="col">Qty</th>
                     <th scope="col">total harga</th>
                     <th scope="col">Tanggal</th>
-                    <th scope="col">Staus</th>
+                    <th scope="col">Status</th>
                 </tr>
             </thead>
             <tbody>

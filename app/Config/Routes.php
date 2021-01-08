@@ -45,19 +45,19 @@ $routes->get('/Pages/transaksi', 'Pages::transaksi', ['filter' => 'role:admin'])
 $routes->get('/Pages/itemscreate', 'Pages::itemscreate', ['filter' => 'role:admin']);
 $routes->get('/Pages/itemsedit', 'Pages::itemsedit', ['filter' => 'role:admin']);
 
-
-$routes->get('/Pages/index', 'Pages::index', ['filter' => 'role:user']);
-$routes->get('/pages/produk', 'Pages::produk', ['filter' => 'role:user']);
-$routes->get('/pages/Detailproduk', 'Pages::Detailproduk', ['filter' => 'role:user']);
+// //user
+// $routes->get('/pages/Produk', 'Pages::Produk', ['filter' => 'role:user']);
+// $routes->get('/pages/Detailproduk', 'Pages::Detailproduk', ['filter' => 'role:user']);
 $routes->get('/pages/About', 'Pages::About', ['filter' => 'role:user']);
 $routes->get('/pages/cart', 'Pages::cart', ['filter' => 'role:user']);
 $routes->get('/pages/where', 'Pages::where', ['filter' => 'role:user']);
 
-$routes->get('/Pages/produk', 'Pages::items', ['filter' => 'role:user']);
-$routes->get('/Pages/Detailproduk', 'Pages::Detailproduk', ['filter' => 'role:user']);
-$routes->get('/Pages/About', 'Pages::About', ['filter' => 'role:user']);
+// $routes->get('/Pages/Produk', 'Pages::Produk', ['filter' => 'role:user']);
+// $routes->get('/Pages/Detailproduk', 'Pages::Detailproduk', ['filter' => 'role:user']);
+// $routes->get('/Pages/About', 'Pages::About', ['filter' => 'role:user']);
 $routes->get('/Pages/cart', 'Pages::cart', ['filter' => 'role:user']);
 $routes->get('/Pages/where', 'Pages::where', ['filter' => 'role:user']);
+
 
 /**
  * --------------------------------------------------------------------
